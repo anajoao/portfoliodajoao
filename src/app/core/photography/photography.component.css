@@ -44,3 +44,39 @@
   .photo-24 { grid-area: 7 / 4 / 8 / 5; } 
   .photo-25 { grid-area: 7 / 5 / 8 / 6; } 
   .photo-26 { grid-area: 7 / 6 / 8 / 7; }
+
+
+  @media (max-width: 768px) {
+    .styling-gallery {
+      grid-template-columns: repeat(2, 1fr);
+      grid-auto-rows: auto;
+      gap: 10px;
+    }
+  
+    .photo-1 { grid-area: 1 / 1 / 2 / 2; }
+    .photo-2 { grid-area: 1 / 2 / 2 / 3; }
+    .photo-3 { grid-area: 2 / 1 / 3 / 2; }
+    .photo-4 { grid-area: 2 / 2 / 3 / 3; }
+    .photo-5 { grid-area: 3 / 1 / 4 / 2; }
+    .photo-6 { grid-area: 3 / 2 / 4 / 3; }
+    .photo-7 { grid-area: 4 / 1 / 5 / 2; }
+    .photo-8 { grid-area: 4 / 2 / 5 / 3; }
+    .photo-9 { grid-area: 5 / 1 / 6 / 2; }
+    .photo-10 { grid-area: 5 / 2 / 6 / 3; }
+    .photo-11 { grid-area: 6 / 1 / 7 / 2; }
+    .photo-12 { grid-area: 6 / 2 / 7 / 3; }
+    .photo-13 { grid-area: 7 / 1 / 8 / 2; }
+    .photo-14 { grid-area: 7 / 2 / 8 / 3; }
+    .photo-15 { grid-area: 8 / 1 / 9 / 2; }
+    .photo-16 { grid-area: 8 / 2 / 9 / 3; }
+    .photo-17 { grid-area: 9 / 1 / 10 / 2; }
+    .photo-18 { grid-area: 9 / 2 / 10 / 3; }
+    .photo-19 { grid-area: 10 / 1 / 11 / 2; }
+    .photo-20 { grid-area: 10 / 2 / 11 / 3; }
+    .photo-21 { grid-area: 11 / 1 / 12 / 2; }
+    .photo-22 { grid-area: 11 / 2 / 12 / 3; }
+    .photo-23 { grid-area: 12 / 1 / 13 / 2; }
+    .photo-24 { grid-area: 12 / 2 / 13 / 3; }
+    .photo-25 { grid-area: 13 / 1 / 14 / 2; }
+    .photo-26 { grid-area: 13 / 2 / 14 / 3; }
+  }
